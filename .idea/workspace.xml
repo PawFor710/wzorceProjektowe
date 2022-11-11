@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7fe8219-3c48-4d8e-89ad-97132aa30676" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/enums/hotel/HotelApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/enums/hotel/PriceList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/enums/hotel/Season.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/singleton/SettingsFileEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wzorce/projektowe/singleton/SettingsFileEngineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/prototype/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/prototype/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/prototype/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/prototype/TasksList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wzorce/projektowe/prototype/BoardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,10 +58,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -70,10 +74,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.wzorce.projektowe.prototype" />
       <recent name="com.wzorce.projektowe.singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SettingsFileEngineTestSuite (1)">
+  <component name="RunManager" selected="Gradle.BoardTestSuite">
     <configuration name="HotelApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wzorce.projektowe.singleton.hotel.HotelApp" />
       <module name="wzorce-projektowe.main" />
@@ -86,6 +91,52 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="BoardTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.wzorce.projektowe.prototype.BoardTestSuite&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BoardTestSuite.testToString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.wzorce.projektowe.prototype.BoardTestSuite.testToString&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="SettingsFileEngineTestSuite (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -110,9 +161,35 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="SettingsFileEngineTestSuite.testGetFileName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.wzorce.projektowe.singleton.SettingsFileEngineTestSuite.testGetFileName&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BoardTestSuite" />
+        <item itemvalue="Gradle.BoardTestSuite.testToString" />
         <item itemvalue="Gradle.SettingsFileEngineTestSuite (1)" />
+        <item itemvalue="Gradle.SettingsFileEngineTestSuite.testGetFileName" />
         <item itemvalue="Application.HotelApp" />
       </list>
     </recent_temporary>
@@ -125,7 +202,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668178870113</updated>
-      <workItem from="1668178874710" duration="5908000" />
+      <workItem from="1668178874710" duration="9425000" />
     </task>
     <servers />
   </component>
