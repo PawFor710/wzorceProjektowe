@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7fe8219-3c48-4d8e-89ad-97132aa30676" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/strategy/AggressivePredictor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/strategy/BalancedPredictor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/strategy/BuyPredictor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/strategy/ConservativePredictor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/strategy/CorporateCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/strategy/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/strategy/IndividualCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/strategy/IndividualYoungCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wzorce/projektowe/strategy/CustomerTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/factory/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/factory/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/factory/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/factory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wzorce/projektowe/factory/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wzorce/projektowe/factory/ShapeFactoryTestSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +74,13 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.wzorce.projektowe.factory" />
       <recent name="com.wzorce.projektowe.strategy" />
       <recent name="com.wzorce.projektowe.prototype" />
       <recent name="com.wzorce.projektowe.singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CustomerTestSuite">
+  <component name="RunManager" selected="Gradle.ShapeFactoryTestSuite">
     <configuration name="BoardTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -176,7 +173,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SettingsFileEngineTestSuite.testGetFileName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShapeFactoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -189,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.wzorce.projektowe.singleton.SettingsFileEngineTestSuite.testGetFileName&quot;" />
+            <option value="&quot;com.wzorce.projektowe.factory.ShapeFactoryTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -201,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ShapeFactoryTestSuite" />
         <item itemvalue="Gradle.CustomerTestSuite" />
         <item itemvalue="Gradle.BoardTestSuite" />
         <item itemvalue="Gradle.BoardTestSuite.testToString" />
         <item itemvalue="Gradle.SettingsFileEngineTestSuite (1)" />
-        <item itemvalue="Gradle.SettingsFileEngineTestSuite.testGetFileName" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +214,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668178870113</updated>
-      <workItem from="1668178874710" duration="10706000" />
+      <workItem from="1668178874710" duration="12247000" />
     </task>
     <servers />
   </component>
